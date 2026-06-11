@@ -1,0 +1,10 @@
+import random
+A = random.randint(1, 10)
+B = int(input())
+while B != A:
+    if A > B:
+        print("Too low!")
+    elif B > A:
+        print("Too high!") 
+    B = int(input())
+print("correct!")
