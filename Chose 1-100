@@ -1,5 +1,5 @@
 import random
-A = random.randint(1, 10)
+A = random.randint(1, 100)
 B = int(input())
 while B != A:
     if A > B:
